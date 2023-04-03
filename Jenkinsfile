@@ -12,7 +12,7 @@ pipeline {
 
 
 #IMAGE_NAME="anylink-dev"
-IMAGE_VERSION=$(date +\'%Y%m%d%H%M%S\')
+IMAGE_VERSION=$(date +\'%Y%m%d\')
 REGISTRY_HOST="harbor.atstudy.com"
 REGISTRY_NAMESPACE="it-service"
 REGISTRY_USERNAME="admin"
